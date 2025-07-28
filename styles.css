@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+.title,
+.content,
+.quote,
+.popup,
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 20px 20px;
+}
+
+/* Optional: give each section a different background to visualize */
+.header {
+  background-color: #1f2937;
+}
+
+.title {
+  background-color: #1f2937;
+}
+
+.content {
+  background-color: #f9faf8;
+  flex: 1; /* this makes content expand if there's extra space */
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.popup {
+  background-color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+}
