@@ -99,10 +99,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex: 1;
-    flex-shrink: 0;
-    flex-grow: 0;
-    flex-basis: auto; */
 }
 .image {
     width: 300px;
@@ -112,12 +108,11 @@ a {
     align-items: center;
     justify-content: space-evenly;
     color:  #f9faf8;
-    /* flex: auto; */
 }
 
 .content {
     background-color: #f9faf8;
-    flex: 1; /* this makes content expand if there's extra space */
+    flex: 1;
 }
 .content-inner {
     font-size: 36px;
